@@ -18,7 +18,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 html{
-    background: top center url(/assets/images/background-pattern-desktop.svg) no-repeat var(--light-pink);
+    background: top center url(assets/images/background-pattern-desktop.svg) no-repeat var(--light-pink);
     width: 100%;
 }
 body{
@@ -79,7 +79,7 @@ body{
 
 @media (max-width: 540px){
     html{
-        background-image: url(/assets/images/background-pattern-mobile.svg);
+        background-image: url(assets/images/background-pattern-mobile.svg);
         background-size: contain;
     }
     .card{
