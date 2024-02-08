@@ -58,7 +58,7 @@ body{
 }
 .question::after{
     content: "";
-    background: url(/assets/images/icon-plus.svg) no-repeat;
+    background: url(assets/images/icon-plus.svg) no-repeat;
     background-size: contain;
     display: block;
     aspect-ratio: 1;
@@ -68,7 +68,7 @@ body{
     top: calc(var(--question-pad)/2);
 }
 .question.active::after{
-    background: url(/assets/images/icon-minus.svg);
+    background: url(assets/images/icon-minus.svg);
     background-size: contain;
 }
 
